@@ -16,7 +16,33 @@
   "linter": {
     "enabled": true,
     "rules": {
-      "recommended": true
+      "recommended": true,
+      "complexity": {
+        "useSimplifiedLogicExpression": "error"
+      },
+      "correctness": {
+        "noUnusedImports": "error"
+      },
+      "style": {
+        "noNegationElse": "error",
+        "noDefaultExport": "error",
+        "useBlockStatements": "error",
+        "useCollapsedElseIf": "error",
+        "useShorthandArrayType": "error",
+        "useShorthandAssign": "error",
+        "useForOf": "error",
+        "useFilenamingConvention": {
+          "level": "error",
+          "options": {
+            "filenameCases": ["kebab-case", "export"],
+            "strictCase": true
+          }
+        }
+      },
+      "suspicious": {
+        "noEmptyBlockStatements": "error",
+        "useAwait": "error"
+      }
     }
   },
   "javascript": {
