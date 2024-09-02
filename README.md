@@ -1,6 +1,6 @@
 # Grimoire
 
-> This is the zhaoworks code style and best practices repository. Here you will find the code style decisions, guides on how to setup tools and more.
+> The zhaoworks code style and best practices repository. Here you will find the code style decisions, guides on how to setup tools and more.
 
 ## Packages
 
