@@ -26,7 +26,6 @@
       "style": {
         "noNegationElse": "error",
         "noDefaultExport": "error",
-        "useBlockStatements": "error",
         "useCollapsedElseIf": "error",
         "useShorthandArrayType": "error",
         "useShorthandAssign": "error",
