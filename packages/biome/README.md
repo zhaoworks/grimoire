@@ -34,7 +34,6 @@ All the rules below are set to `error`.
 
 - [noNegationElse](https://biomejs.dev/linter/rules/no-negation-else)
 - [noDefaultExport](https://biomejs.dev/linter/rules/no-default-export/)
-- [useBlockStatements](https://biomejs.dev/linter/rules/use-block-statements/)
 - [useCollapsedElseIf](https://biomejs.dev/linter/rules/use-collapsed-else-if/)
 - [useShorthandArrayType](https://biomejs.dev/linter/rules/use-shorthand-array-type/)
 - [useShorthandAssign](https://biomejs.dev/linter/rules/use-shorthand-assign/)
