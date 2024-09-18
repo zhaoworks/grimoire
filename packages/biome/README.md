@@ -2,6 +2,25 @@
 
 > [Biome](https://biomejs.dev/) or biomejs is a modern toolchain in the JavaScript ecosystem, compared to eslint and prettier. We choose it because it's fast, simple and has everything we need together (formatting and linting).
 
+### How to setup biomejs
+
+Install biome and zhaoworks biome config
+
+```sh
+bun add @biomejs/biome @zhaoworks/biome -D
+```
+
+Create a `biome.json` file and paste the following content
+
+```json
+{
+  "$schema": "https://biomejs.dev/schemas/1.8.3/schema.json",
+  "extends": ["@zhaoworks/biome"]
+}
+```
+
+You should use the latest biome json `$schema`.
+
 ### Formatter
 
 Basic options
