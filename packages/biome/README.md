@@ -21,6 +21,24 @@ Create a `biome.json` file and paste the following content
 
 You should use the latest biome json `$schema`.
 
+### How to use
+
+- Use biome CLI
+- [Integrate biome in your editor](https://biomejs.dev/guides/integrate-in-editor/)
+
+Using the CLI, there are three commands
+
+```sh
+# only runs the formatter
+bun biome format --write ./path/to/execute
+
+# only runs the linter
+bun biome lint --write ./path
+
+# runs both linter and formatter
+bun biome check --write ./path
+```
+
 ### Formatter
 
 Basic options
